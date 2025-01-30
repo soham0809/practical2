@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        .course-description {
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <header>
+        <h1>Learn Web Development</h1>
+        <p>Your journey to becoming a web developer starts here.</p>
+    </header>
 
+    <div class="course-description">
+        <h2>Course Details</h2>
+        <p>This course will teach you HTML, CSS, JavaScript, and more. Learn at your own pace and become a full-stack developer!</p>
+        <a href="#" class="cta-button">Enroll Now</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Learn Web Dev. All Rights Reserved.</p>
+    </footer>
+</body>
 </html>
